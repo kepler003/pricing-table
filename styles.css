@@ -17,7 +17,15 @@ body {
 
 .app {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   width: 100%;
   min-height: 100vh;
 }
 
+table {
+  table-layout: fixed;
+  width: 100%;
+  max-width: 900px;
+}
