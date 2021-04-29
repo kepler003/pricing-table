@@ -1,4 +1,8 @@
 
+:root {
+  --primary: hsl(83, 85%, 41%);
+}
+
 *, ::before, ::after {
   margin: 0;
   padding: 0;
@@ -25,7 +29,39 @@ body {
 }
 
 table {
-  table-layout: fixed;
   width: 100%;
   max-width: 900px;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 1.2rem;
+  font-weight: 200;
+}
+
+thead th {
+  width: 19%;
+  text-align: start;
+  vertical-align: top;
+  background-color: var(--primary);
+  color: white;
+}
+
+thead th:first-child {
+  width: 24%;
+  background-color: #EEE;
+  color: #777;
+}
+
+thead th span {
+  display: block;
+}
+
+thead th span:nth-child(1) {
+  margin-bottom: 2.4rem;
+  font-size: 3.2rem;
+}
+
+thead th span:nth-child(2) {
+  font-size: 1.2rem;
 }
