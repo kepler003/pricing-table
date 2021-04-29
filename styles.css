@@ -14,3 +14,10 @@ body {
   font-size: 1.6rem;
   color: #444;
 }
+
+.app {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
