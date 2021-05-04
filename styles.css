@@ -83,6 +83,13 @@ tbody td {
   text-align: center;
 }
 
+tbody th,
+tbody td {
+  --vertical-padding: 1.6rem;
+  padding-top: var(--vertical-padding);
+  padding-bottom: var(--vertical-padding);
+}
+
 tbody tr:first-child td,
 tbody tr:first-child th {
   padding-top: 3.2rem;
