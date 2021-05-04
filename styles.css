@@ -1,6 +1,7 @@
 
 :root {
   --primary: hsl(83, 85%, 41%);
+  --color-font: #444;
 }
 
 *, ::before, ::after {
@@ -16,7 +17,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  color: #444;
+  color: var(--color-font);
 }
 
 .app {
@@ -84,4 +85,44 @@ tbody td {
 tbody tr:first-child td,
 tbody tr:first-child th {
   padding-top: 3.2rem;
+}
+
+/* Icon */
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 2px solid var(--color-font);
+  border-radius: 10000px;
+  position: relative;
+}
+
+.icon::before,
+.icon::after {
+  font-weight: 700;
+  color: var(--color-font)
+}
+
+/* Check icon */
+
+.icon--check {
+  border-color: var(--primary);
+}
+
+.icon--check::after {
+  content: "\2713";
+  color: var(--primary);
+  font-size: 2rem;
+  transform: translateY(-2%);
+}
+
+/* Exit icon */
+
+.icon--exit::after {
+  content: "\2A2F";
+  font-size: 2.6rem;
 }
