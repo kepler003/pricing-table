@@ -57,7 +57,7 @@ body, input, button {
 
 .table__box {
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 table {
