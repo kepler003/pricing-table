@@ -34,13 +34,28 @@ body, input, button {
 
 /* Table */
 
-table {
+.table__wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 900px;
   padding: 1.6rem;
-  table-layout: fixed;
   background-color: white;
   box-shadow: 0 5px 15px hsl(0, 0%, 75%);
+}
+
+.table__wrapper h1 {
+  font-size: 4.8rem;
+  font-weight: 200;
+  margin-bottom: 1.2rem;
+  padding: 1.2rem 0;
+  color: #666;
+}
+
+table {
+  table-layout: fixed;
 }
 
 th, td {
