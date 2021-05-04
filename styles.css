@@ -1,6 +1,6 @@
 
 :root {
-  --primary: hsl(83, 85%, 41%);
+  --color-primary: hsl(83, 85%, 41%);
   --color-font: #444;
 }
 
@@ -48,7 +48,7 @@ thead th {
   width: 19%;
   text-align: start;
   vertical-align: top;
-  background-color: var(--primary);
+  background-color: var(--color-primary);
   color: white;
 }
 
@@ -110,12 +110,12 @@ tbody tr:first-child th {
 /* Check icon */
 
 .icon--check {
-  border-color: var(--primary);
+  border-color: var(--color-primary);
 }
 
 .icon--check::after {
   content: "\2713";
-  color: var(--primary);
+  color: var(--color-primary);
   font-size: 2rem;
   transform: translateY(-2%);
 }
