@@ -28,6 +28,8 @@ body {
   min-height: 100vh;
 }
 
+/* Table */
+
 table {
   width: 100%;
   max-width: 900px;
@@ -38,6 +40,8 @@ th, td {
   padding: 1.2rem;
   font-weight: 200;
 }
+
+/* Table header */
 
 thead th {
   width: 19%;
@@ -64,4 +68,20 @@ thead th span:nth-child(1) {
 
 thead th span:nth-child(2) {
   font-size: 1.2rem;
+}
+
+/* Table body */
+
+tbody th {
+  padding-left: 0;
+  text-align: start;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tbody tr:first-child td,
+tbody tr:first-child th {
+  padding-top: 3.2rem;
 }
