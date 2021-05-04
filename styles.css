@@ -87,7 +87,7 @@ tbody td {
 
 tbody th,
 tbody td {
-  --vertical-padding: 1.6rem;
+  --vertical-padding: 1.8rem;
   padding-top: var(--vertical-padding);
   padding-bottom: var(--vertical-padding);
 }
