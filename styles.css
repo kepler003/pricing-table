@@ -29,6 +29,7 @@ body, input, button {
   width: 100%;
   min-height: 100vh;
   padding: 4.8rem;
+  background-color: hsl(0, 0%, 95%);
 }
 
 /* Table */
@@ -36,7 +37,10 @@ body, input, button {
 table {
   width: 100%;
   max-width: 900px;
+  padding: 1.6rem;
   table-layout: fixed;
+  background-color: white;
+  box-shadow: 0 5px 15px hsl(0, 0%, 75%);
 }
 
 th, td {
@@ -168,6 +172,7 @@ tbody tr:first-child th {
 /* Table footer */
 
 tfoot td {
+  padding-bottom: 0;
   text-align: center;
 }
 
